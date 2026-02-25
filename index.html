@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bodegón de Tomas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -32,106 +34,163 @@
     </nav>
   </header>
 
-  <main class="home">
-    <h2>Bodegón Argentino, con raices españolas</h2>
-    <h3>Desde 1990</h3>
-    <p>El más grande</p>
-    <section" class="ojo">
+  <main>
+    <section>
+      <article class="">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/milanesa.png" class="img-car" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/ojodebife.png" class="img-car" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/sorrentinos.png" class="img-car" alt="...">
+            </div>
+            <div>
+              <nav>
+                <ul" class="navbar1">
+                <li>
+                  <a href="./pages/entradas.html" class="nav-link reserva">Reservar Mesa</a>
+                </li>
+                <li>
+                  <a href="./pages/principales.html" class="nav-link reserva">Ver Menú</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </article>
+</section>
+
+    <section" class="fondomenu home">
+      <h2 class="titulo presentacion">Bienvenido al Bodegon de Tomás </h2>
+      <h3 class="titulo">Desde 1990</h3>
       <article>
         <nav>
           <ul" class="navbar1">
-        <li>
-          <a href="./pages/entradas.html" class="nav-link">Reservar Mesa</a>
-        </li>
-        <li>
-          <a href="./pages/principales.html" class="nav-link">Menú</a>
-        </li>
+            <li>
+              <a href="./pages/entradas.html" class="nav-link">Reservar Mesa</a>
+            </li>
+            <li>
+              <a href="./pages/principales.html" class="nav-link"> Ver Menú</a>
+            </li>
+            </ul>
         </nav>
       </article>
-    </section>
-    <h2 class="titulo">¿Qué es un Bodegon?</h2>
-    <p class="p-home">Un bodegón argentino es un establecimiento gastronómico tradicional, generalmente ubicado en
-      barrios. Sus características principales son: Comida abundante: Platos generosos y caseros (milanesas, pastas,
-      tortillas, revueltos). Ambiente histórico: Suelen tener paredes decoradas con fotos viejas, banderines de fútbol o
-      botellas antiguas. Precios accesibles: Se enfocan en la relación cantidad-precio y en el sabor tradicional por
-      encima de la sofisticación.</p>
+      </section>
+
       <section>
-        <article class="mila">
-          <img src="./assets/ojodebife.png" alt="Imagen de un ojo de bife con papas fritas">
-          <h2> Ojo de bife a caballo</h2>
-          <p>Ojo de bife a caballo, carnes premiun de excelente calidad y al punto de prefrencia del comensal.</p>
-        </article>
-        <article class="mila">
-          <h2>Milanesas gigantes</h2>
+        <article class="somos">
+          <div>
+            <h2 class="titulo">¿Qué es un Bodegon?</h2>
+            <p class="bodegon">Un bodegón es mucho más que un restaurante: es una tradición argentina que combina cocina casera, porciones abundantes y un ambiente familiar donde todos se sienten bienvenidos. Nació como un espacio sencillo y popular, pensado para reunir a trabajadores, vecinos y familias alrededor de la mesa. Se caracteriza por ofrecer platos clásicos y contundentes, preparados con recetas tradicionales y sabores auténticos. La idea principal es que nadie se quede con hambre y que cada comida sea una experiencia generosa, tanto en cantidad como en calidad. Más que un lugar para comer, es un punto de encuentro donde se comparten historias, risas y buenos momentos. Un bodegón no sigue modas: mantiene vivas las costumbres. Porque en un verdadero bodegón, la comida es casera y el trato es como en casa.
+              </p>
+            </div>
+            <div>
+              <h3 class="titulo">¿Quienes somos?</h3>
+              <p class="bodegon">En Bodegón de Tomás mantenemos viva la tradición de los bodegones argentinos: platos abundantes, sabores caseros y ese ambiente cálido que te hace sentir como en casa. Somos un lugar donde la cocina se prepara como antes, con recetas que pasan de generación en generación y porciones generosas que invitan a compartir. Desde nuestras milanesas gigantes y el clásico matambre a la pizza, hasta pastas caseras y cortes de carne a la parrilla, cada plato está pensado para disfrutar sin apuro. Nuestro espacio combina lo rústico y lo tradicional, con una atmósfera acogedora ideal para reuniones familiares, cenas con amigos o simplemente para darse el gusto de comer bien. En Bodegón de Tomás no solo servimos comida, servimos momentos.Porque un buen bodegón no se explica… se vive</p>
+            </div>
+          </article>
+        <!-- </section>
+
+          <section class="ejemplo-comida">
+            <article class="ejemplo-comida ojo">
+              <h2> Ojo de bife a caballo</h2>
+              <img src="./assets/ojodebife.png" alt="Imagen de un ojo de bife con papas fritas">
+              <p>Ojo de bife a caballo, carnes premiun de excelente calidad y al punto de prefrencia del comensal.</p>
+            </article>
+            <article class="ejemplo-comida mila">
+              <h2>Milanesas gigantes</h2>
+              <img src="./assets/milanesa.png" alt="Imagen de una milanesa de fondo">
           <p>Nuestras milanesas son GIGANTES, para compartir con amigos o como siempre, en familia.</p>
-          <img src="./assets/fondomilanesa.png" alt="Imagen de una milanesa de fondo">
         </article>
-        <article class="mila">
-          <img src="./assets/sorrentinos.png" alt="Imagen de sorrentinos">
+        <article class="ejemplo-comida sorrentino">
           <h2>Sorrentinos Caseros</h2>
+          <img src="./assets/sorrentinos.png" alt="Imagen de sorrentinos">
           <p>Sorrentinos con salsa bolgnesa. Nuestas pastas son 100% caseras y para compartir.</p>
         </article>
       </section>
-        <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-    </p>
-    <p>
-      ALAMOS
-      ASDASD
-      ASDADAS
-      ASDASD
-    </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+      </p>
+      <p>
+        ALAMOS
+        ASDASD
+        ASDADAS
+        ASDASD
+      </p> -->
   </main>
 
   <footer>
@@ -167,6 +226,10 @@
       </ul>
     </nav>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
